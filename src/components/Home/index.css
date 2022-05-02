@@ -568,3 +568,8 @@ textarea:focus {
     margin-top: 350px;
   }
 }
+.arrow-button{
+  height: 35px;
+  margin-top: -45px;
+  margin-bottom: 15px;
+}

@@ -1,3 +1,4 @@
+import React from 'react';
 import {Component} from 'react'
 import {MdMenuOpen} from 'react-icons/md'
 import {FaLinkedinIn, FaGithub, FaMailBulk, FaYoutube} from 'react-icons/fa'
@@ -18,7 +19,6 @@ class Home extends Component {
   render() {
     const {showMenu} = this.state
     return (
-      <>
         <div className="app-container">
           <div className="app-card-container">
             <nav className="nav-container">
@@ -70,13 +70,13 @@ class Home extends Component {
                 </h1>
                 <p className="tag">A Full Stack Developer</p>
                 <div className="buttons-container">
-                  <button className="button1"><a className='anchor1' href="https://docs.google.com/document/d/1xIbqnTWcUDzz6Q0uS7Kfa1VJQ3AI1U-KAXrBJQRgSGE/edit?usp=drivesdk" target="_blank">Resume</a></button>
+                  <button className="button1"><a className='anchor1' href="https://docs.google.com/document/d/1xIbqnTWcUDzz6Q0uS7Kfa1VJQ3AI1U-KAXrBJQRgSGE/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">Resume</a></button>
                   <button className="button"><a className='anchor' href="#Contact">Let's Talk</a></button>
                 </div>
               </div>
               <img
                 src="https://res.cloudinary.com/dps34f4by/image/upload/v1651400995/profile-pic_jddbbc.png"
-                className="image"
+                className="image" alt="profile"
               />
             </div></div>
             <div id="About">
@@ -223,56 +223,56 @@ class Home extends Component {
                     <div className="flip-box">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                          <img src="https://res.cloudinary.com/dps34f4by/image/upload/v1646985280/Group_7399_1_rs0qmy.png" className='flip-card-logo'/>
+                          <img src="https://res.cloudinary.com/dps34f4by/image/upload/v1646985280/Group_7399_1_rs0qmy.png" className='flip-card-logo' alt="logo"/>
                         </div>
                         <div className="flip-box-back">
                           <p className='back-details'>Movies App</p>
-                          <button type="button" className='card-button'><a className='anchor' href="https://vmcmoviesapp.ccbp.tech/" target="_blank">Site</a></button>
-                          <button type="button" className='card-button1'><a className='anchor' href="https://github.com/VamshiKrishnaMarri/newMoviesApp.git" target="_blank">Code</a></button>    
+                          <button type="button" className='card-button'><a className='anchor' href="https://vmcmoviesapp.ccbp.tech/" target="_blank" rel="noopener noreferrer">Site</a></button>
+                          <button type="button" className='card-button1'><a className='anchor' href="https://github.com/VamshiKrishnaMarri/newMoviesApp.git" target="_blank" rel="noopener noreferrer">Code</a></button>    
                         </div>
                       </div>
                     </div>
                     <div className="flip-box">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                          <img src="https://res.cloudinary.com/dps34f4by/image/upload/v1651476804/pngwing.com_9_want7n.png" />
+                          <img src="https://res.cloudinary.com/dps34f4by/image/upload/v1651476804/pngwing.com_9_want7n.png" alt="logo" />
                           <p className='logo-tag'>NXT Watch</p>
                         </div>
                         <div className="flip-box-back">
                         <p className='back-details1'>NXT Watch Video Streaming</p>
-                          <button type="button" className='card-button'><a className='anchor' href="https://vmcnxtwatch.ccbp.tech/" target="_blank">Site</a></button>
-                          <button type="button" className='card-button1'><a className='anchor' href="https://github.com/VamshiKrishnaMarri/NxtWatch.git" target="_blank">Code</a></button>
+                          <button type="button" className='card-button'><a className='anchor' href="https://vmcnxtwatch.ccbp.tech/" target="_blank" rel="noopener noreferrer">Site</a></button>
+                          <button type="button" className='card-button1'><a className='anchor' href="https://github.com/VamshiKrishnaMarri/NxtWatch.git" target="_blank" rel="noopener noreferrer">Code</a></button>
                         </div>
                       </div>
                     </div>
                     <div className="flip-box">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                          <img src="https://res.cloudinary.com/dps34f4by/image/upload/v1651477444/5a225639481bb3.0715875515121997372954_com5u3.png" />
+                          <img src="https://res.cloudinary.com/dps34f4by/image/upload/v1651477444/5a225639481bb3.0715875515121997372954_com5u3.png" alt="logo"/>
                           <p className='logo-tag'>NXT Jobs</p>
                         </div>
                         <div className="flip-box-back">
                         <p className='back-details'>Job Search Application</p>
-                          <button type="button" className='card-button'><a className='anchor' href="https://jobbyappvmc.ccbp.tech/" target="_blank">Site</a></button>
-                          <button type="button" className='card-button1'><a className='anchor' href="https://github.com/VamshiKrishnaMarri/JobbyApp.git" target="_blank">Code</a></button>
+                          <button type="button" className='card-button'><a className='anchor' href="https://jobbyappvmc.ccbp.tech/" target="_blank" rel="noopener noreferrer">Site</a></button>
+                          <button type="button" className='card-button1'><a className='anchor' href="https://github.com/VamshiKrishnaMarri/JobbyApp.git" target="_blank" rel="noopener noreferrer">Code</a></button>
                         </div>
                       </div>
                     </div>
                     <div className="flip-box">
                       <div className="flip-box-inner">
                         <div className="flip-box-front">
-                          <img src="https://res.cloudinary.com/dps34f4by/image/upload/v1651477506/pngwing.com_11_iuibts.png" />
+                          <img src="https://res.cloudinary.com/dps34f4by/image/upload/v1651477506/pngwing.com_11_iuibts.png" alt="logo"/>
                           <p className='logo-tag'>NXT Trends</p>
                         </div>
                         <div className="flip-box-back">
                         <p className='back-details'>Trending Clothing</p>
-                          <button type="button" className='card-button'><a href="" target="_blank">Site</a></button>
-                          <button type="button" className='card-button1'><a href="" target="_blank">Code</a></button>
+                          <button type="button" className='card-button'><a className='anchor' href="https://vmctrendsapp.ccbp.tech" target="_blank" rel="noopener noreferrer">Site</a></button>
+                          <button type="button" className='card-button1'><a className='anchor' href="https://github.com/VamshiKrishnaMarri/Nxt-Trends.git" target="_blank" rel="noopener noreferrer">Code</a></button>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <p className='skill'>Credentials: Username-rahul Password-rahul@2021 </p>
+                  <p className='skill'>Credentials: Username-rahul & Password-rahul@2021 </p>
               </div>
             </div>
             <div id="Contact">
@@ -289,16 +289,16 @@ class Home extends Component {
                   </div>
                 </form>
                 <div className="contact-us-container">
-                  <h1 className='tag1'>I'm open for Discussions.<br/>Mail me <a href="mailto:vamshikrishnamarri6@gmail.com" target="_blank">vamshikrishnamarri6@gmail.com</a></h1>
+                  <h1 className='tag1'>I'm open for Discussions.<br/>Mail me <a href="mailto:vamshikrishnamarri6@gmail.com" target="_blank" rel="noopener noreferrer">vamshikrishnamarri6@gmail.com</a></h1>
                     <div className="contact-icons-container">
                       <button type="button" className="icon-button" testid="searchButton">
-                        <a href="https://www.linkedin.com/in/vamshikrishnamarri" target="_blank"><FaLinkedinIn className="contact-icon" /></a>
+                        <a href="https://www.linkedin.com/in/vamshikrishnamarri" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className="contact-icon" /></a>
                       </button>
                       <button type="button" className="icon-button" testid="searchButton">
-                        <a href="https://github.com/VamshiKrishnaMarri" target="_blank"><FaGithub className="contact-icon" /></a>
+                        <a href="https://github.com/VamshiKrishnaMarri" target="_blank" rel="noopener noreferrer"><FaGithub className="contact-icon" /></a>
                       </button>
                       <button type="button" className="icon-button" testid="searchButton">
-                        <a href="mailto:vamshikrishnamarri6@gmail.com" target="_blank"><FaMailBulk className="contact-icon" /></a>
+                        <a href="mailto:vamshikrishnamarri6@gmail.com" target="_blank" rel="noopener noreferrer"><FaMailBulk className="contact-icon" /></a>
                         
                       </button>
                       <button type="button" className="icon-button" testid="searchButton">
@@ -309,9 +309,9 @@ class Home extends Component {
               </div>
               </div>
             </div>
+            <a className='anchor1' href="#Home"><img src="https://res.cloudinary.com/dps34f4by/image/upload/v1651493283/pngwing.com_12_pobopz.png" alt="arrow" className='arrow-button'/></a>
           </div>
         </div>
-      </>
     )
   }
 }
